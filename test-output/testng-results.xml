@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7415" started-at="2017-12-22T02:35:04Z" finished-at="2017-12-22T02:35:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7415" started-at="2017-12-22T02:35:04Z" finished-at="2017-12-22T02:35:11Z">
+      <class name="testS.DataBaseTest">
+        <test-method status="PASS" signature="initDataBase()[pri:0, instance:testS.DataBaseTest@7dc7cbad]" name="initDataBase" is-config="true" duration-ms="177" started-at="2017-12-22T04:35:04Z" finished-at="2017-12-22T04:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDataBase -->
+        <test-method status="PASS" signature="addDriverTest(int, int)[pri:0, instance:testS.DataBaseTest@7dc7cbad]" name="addDriverTest" duration-ms="6" started-at="2017-12-22T04:35:05Z" data-provider="addDriver" finished-at="2017-12-22T04:35:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDriverTest -->
+        <test-method status="PASS" signature="deleteCarByNumberTest()[pri:0, instance:testS.DataBaseTest@7dc7cbad]" name="deleteCarByNumberTest" duration-ms="1" started-at="2017-12-22T04:35:06Z" data-provider="deleteCar" finished-at="2017-12-22T04:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCarByNumberTest -->
+        <test-method status="PASS" signature="getCarInsuranceTest(models.Insurance, models.Insurance)[pri:0, instance:testS.DataBaseTest@7dc7cbad]" name="getCarInsuranceTest" duration-ms="1" started-at="2017-12-22T04:35:07Z" data-provider="getCarIns" finished-at="2017-12-22T04:35:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+Сar insurance information:
+ 
+Ins name: Casco O11;
+Year of start: 2014-01-01;
+Price: 999$;
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[
+Сar insurance information:
+ 
+Ins name: Casco O11;
+Year of start: 2014-01-01;
+Price: 999$;
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCarInsuranceTest -->
+        <test-method status="PASS" signature="getInsuranceTest(models.Insurance, models.Insurance)[pri:0, instance:testS.DataBaseTest@7dc7cbad]" name="getInsuranceTest" duration-ms="0" started-at="2017-12-22T04:35:09Z" data-provider="getInsurances" finished-at="2017-12-22T04:35:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[
+Сar insurance information:
+ 
+Ins name: Standart;
+Year of start: 2016-01-02;
+Price: 301$;
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[
+Сar insurance information:
+ 
+Ins name: Standart;
+Year of start: 2016-01-02;
+Price: 301$;
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getInsuranceTest -->
+        <test-method status="PASS" signature="setAndGetDataBaseTest(java.util.ArrayList, java.util.ArrayList)[pri:0, instance:testS.DataBaseTest@7dc7cbad]" name="setAndGetDataBaseTest" duration-ms="2" started-at="2017-12-22T04:35:10Z" data-provider="prepareDataBase" finished-at="2017-12-22T04:35:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Holder iformation:
+
+Name: Anatoliy;
+Last name: Klamuk;
+Date of birthday: 1988-10-11;
+Addres: Kyiv / Kyiv / Zarvanska 42a;
+
+Car information:
+ 
+Number: AA2255CB;
+Car name: Mercedes;
+Model: CLC 300;
+Color: Gray;
+
+Сar insurance information:
+ 
+Ins name: Casco O11;
+Year of start: 2014-01-01;
+Price: 999$;
+, Holder iformation:
+
+Name: Vitaliy;
+Last name: Stepaniyk;
+Date of birthday: 1985-02-25;
+Addres: Hmelnitska / Dynaivtsi / Hmelstreet 15;
+
+Car information:
+ 
+Number: AC2865CB;
+Car name: BMW;
+Model: M3;
+Color: Red;
+
+Сar insurance information:
+ 
+Ins name: Full Care;
+Year of start: 2015-11-21;
+Price: 547$;
+, Holder iformation:
+
+Name: Dmitro;
+Last name: Olegnov;
+Date of birthday: 1979-12-01;
+Addres: Symu / Symu / Holovna 19;
+
+Car information:
+ 
+Number: BC1859AA;
+Car name: Lada;
+Model: 2101;
+Color: White;
+
+Сar insurance information:
+ 
+Ins name: Standart;
+Year of start: 2016-01-02;
+Price: 301$;
+]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Holder iformation:
+
+Name: Anatoliy;
+Last name: Klamuk;
+Date of birthday: 1988-10-11;
+Addres: Kyiv / Kyiv / Zarvanska 42a;
+
+Car information:
+ 
+Number: AA2255CB;
+Car name: Mercedes;
+Model: CLC 300;
+Color: Gray;
+
+Сar insurance information:
+ 
+Ins name: Casco O11;
+Year of start: 2014-01-01;
+Price: 999$;
+, Holder iformation:
+
+Name: Vitaliy;
+Last name: Stepaniyk;
+Date of birthday: 1985-02-25;
+Addres: Hmelnitska / Dynaivtsi / Hmelstreet 15;
+
+Car information:
+ 
+Number: AC2865CB;
+Car name: BMW;
+Model: M3;
+Color: Red;
+
+Сar insurance information:
+ 
+Ins name: Full Care;
+Year of start: 2015-11-21;
+Price: 547$;
+, Holder iformation:
+
+Name: Dmitro;
+Last name: Olegnov;
+Date of birthday: 1979-12-01;
+Addres: Symu / Symu / Holovna 19;
+
+Car information:
+ 
+Number: BC1859AA;
+Car name: Lada;
+Model: 2101;
+Color: White;
+
+Сar insurance information:
+ 
+Ins name: Standart;
+Year of start: 2016-01-02;
+Price: 301$;
+]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAndGetDataBaseTest -->
+        <test-method status="PASS" signature="updateDriverTest(models.Human, models.Human)[pri:0, instance:testS.DataBaseTest@7dc7cbad]" name="updateDriverTest" duration-ms="1" started-at="2017-12-22T04:35:11Z" data-provider="addCars" finished-at="2017-12-22T04:35:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Holder iformation:
+
+Name: Anatoliy;
+Last name: Klamuk;
+Date of birthday: 1988-10-11;
+Addres: Kyiv / Kyiv / Zarvanska 42a;
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Holder iformation:
+
+Name: Vitaliy;
+Last name: Stepaniyk;
+Date of birthday: 1985-02-25;
+Addres: Hmelnitska / Dynaivtsi / Hmelstreet 15;
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateDriverTest -->
+      </class> <!-- testS.DataBaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
